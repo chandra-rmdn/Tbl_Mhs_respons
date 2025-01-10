@@ -7,11 +7,11 @@ app = Flask(__name__)
 def get_connection():
     try: 
         connection = mysql.connector.connect(
-            host = "w8gqa.h.filess.io",
-            database = "Datamhs_staysalmon",
+            host = "bmze4.h.filess.io",
+            database = "Datamhs_looseitdry",
             port = "3307",
-            user = "Datamhs_staysalmon",
-            password = "addff8d5dce83462107c9e0b130553a642b3d11d"
+            user = "Datamhs_looseitdry",
+            password = "1d315463732f373380d6eeaf8708b7f7ad418e08"
         )
         return connection
     except Error as e:
